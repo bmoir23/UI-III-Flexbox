@@ -178,5 +178,25 @@ footer{
 } 
 		
 .serives-header-img{
-	
+	display: flex;
+	align-content: stretch;
+}
+
+.body{
+	display:flex;
+	flex-direction: row;
+}
+
+.serv-body1{
+	display: flex;
+	border: 1px grey;
+	padding:20px;
+	flex-wrap: wrap;
+}
+
+.serv-body2{
+	display: flex;
+	border: 1px grey;
+	padding:20px;
+	flex-wrap: wrap;
 }
