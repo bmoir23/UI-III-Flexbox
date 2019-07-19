@@ -66,8 +66,13 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
 	width:800px;
-	margin: 0 auto;
+	margin: auto;
 
+}
+header{
+	display:flex;
+	flex-direction: row;
+	
 }
 
 header nav{
