@@ -74,18 +74,22 @@ header nav{
 display: inline-block;
 margin:20px;
 height: 100%;
-width:70%;	
+width:98%;	
 }
 header nav a{
 	padding-right:20px;
 	text-decoration: none;
-	color: grey;
+	color:grey;
 }
 
 header img{
 	display:inline-block;
 	width:20%;
 	
+}
+.logo{
+	display:flex;
+	align-items: flex-end;
 }
 
 .title{
@@ -146,7 +150,6 @@ button:hover:after {
 	}
 
 .above section{
-
 	display:inline-block;
 	width:45%;
 	margin:20px 2%;
@@ -184,92 +187,110 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
-	justify-content: center;
-	margin-bottom: 10px;
-
-}
-
-.service-header-img{
-	display:flex;
-	flex-grow: inherit;
-	margin:98%;
-
+	justify-content: flex-start;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: 1px solid red;
+	margin-right:auto;
+	padding:auto;
 }
 
 
+.services-header-img{
+	height:200px;
+	width:800px;
+}
 
-.body{
+
+.main-services{
 	display:flex;
 	flex-direction: row;
 	border-top: solid grey;
 	border-bottom: solid grey;
 	border-width: 1px;
-	justify-content: space-around;
+	
+	justify-content: flex-start;
+	
 
 }
 
 .digital-desgin{
-	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color:  #f3f3f3;
 	border-top: solid grey;
 	border-left: solid grey;
 	border-right:solid grey;
 	border-bottom: solid grey;
 	border-width: 1px;
 	margin-bottom: 20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
+	padding: 10px;
+	width: 400px;
 	height: 300px;
 }
 
 .ui-ux{
-	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color:  #f3f3f3;
 	border-top: solid grey;
 	border-bottom: solid grey;
 	border-left: solid grey;
 	border-right:solid grey;
 	border-width: 1px;
 	margin-bottom: 20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
+	padding: 10px;
+	width: 400px;
 	height: 300px;
 }
 
 .digital-marketing{
-	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color:  #f3f3f3;
 	border-top: solid grey;
 	border-bottom: solid grey;
 	border-left: solid grey;
 	border-right:solid grey;
 	border-width: 1px;
 	margin-bottom: 20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
+	padding: 10px;
+	width: 400px;
 	height: 300px;
 }
 
 .web-dev{
-	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color:  #f3f3f3;
 	border-top: solid grey;
 	border-bottom: solid grey;
 	border-left: solid grey;
 	border-right:solid grey;
 	border-width: 1px;
 	margin-bottom:20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
+	padding: 10px;
+	width: 400px;
 	height: 300px;
 }
 
 .ios-dev{
-	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color:  #f3f3f3;
 	border-top: solid grey;
 	border-bottom: solid grey;
 	border-left: solid grey;
 	border-right:solid grey;
 	border-width: 1px;
 	margin-bottom:20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
+	padding: 10px;
+	width: 400px;
 	height: 300px;
 }
 
@@ -277,22 +298,24 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
-	background-color: lightgrey;
+	background-color:  #f3f3f3;
 	border-top: solid grey;
 	border-bottom: solid grey;
 	border-left: solid grey;
 	border-right:solid grey;
 	border-width: 1px;
-	padding: 50px;
-	width: 300px;
+	margin-bottom:20px;
+	padding: 10px;
+	width: 400px;
 	height: 300px;
 }
 .serv-body1{
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	border: 1px grey;
-	padding:20px 20px 20px 20px;
+	justify-content: center;
+	border: 1px  grey;
+	padding:20px;
 	flex-wrap: wrap;
 	margin: 0;
 
@@ -301,12 +324,13 @@ footer{
 .serv-body2{
 	box-sizing: border-box;
 	display: flex;
-	align-content: center;
+	align-items: center;
+	justify-content: center;
 	flex-direction: column;
-	border: 1px grey;
+	border: 1px  grey;
 	padding:20px;
 	flex-wrap: wrap;
-	margin:0;
+	padding-right: 20px;
 }
 
 .services-list{
